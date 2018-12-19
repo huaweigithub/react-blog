@@ -10,6 +10,10 @@ module.exports = {
       }
     ]
   },
+  devServer: {   
+    host: '0.0.0.0',  
+    port: 3033, // port number 
+  },
   resolve: {
     extensions: ['*', '.js', '.jsx']
   },
